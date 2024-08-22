@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Figtree-italic';
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+}
+
+// Font size
+
+$font-xl: 1.5rem;   // 24px
+$font-l: 1.25rem;   // 20px
+$font-m: 1rem;      // 16px
+$font-s: 0.875rem;  // 14px
+$font-xs: 0.75rem;  // 12px
+
+
+// Color
+$yellow:  hsl(47, 88%, 63%);
+$white: hsl(0, 0%, 100%);
+
+$gray-500: hsl(0, 0%, 42%);
+$gray-950: hsl(0, 0%, 7%);
