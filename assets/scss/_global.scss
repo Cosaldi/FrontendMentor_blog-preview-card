@@ -11,7 +11,6 @@ body {
     background-color: $yellow;
     box-sizing: border-box;
     font-family: 'Figtree';
-    height: 100vh;
 }
 
 a {
@@ -19,6 +18,11 @@ a {
 }
 
 // Margin class
+.my26 {
+    margin-top: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
 .mx16 {
     margin-left: 1rem;
     margin-right: 1rem;
