@@ -7,6 +7,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="dist/style.css">
 
   <title>Frontend Mentor | Blog preview card</title>
 
@@ -26,28 +27,28 @@
 <body>
 
   <div class="container">
-    <main>
-      <div class="card">
-        <figure>
-          <img class="card__img" src="assets/images/illustration-article.svg" alt="Article ilustration">
-          <span class="card__tag">Learning</span>
+    <main class="mb26">
+      <div class="card mx24">
+        <figure class="card__image mb24">
+          <img class="card__illustration mb24" src="assets/images/illustration-article.svg" alt="Article ilustration">
+          <span class="card__tag mb16">Learning</span>
           <figcaption class="card__publish">Published <time datetime="2023-12-21">21 Dec 2023</time></figcaption>
         </figure>
-        <div>
-          <a href="#" class="card__title">HTML & CSS foundations</a>
+        <div class="mb26">
+          <a href="#" class="card__title mb24">HTML & CSS foundations</a>
           <p class="card__desc">These languages are the backbone of every website, defining structure, content, and presentation.</p>
         </div>
-        <figure>
-          <img class="card__avatar" src="assets/images/image-avatar.webp" alt="Greg's Avatar">
-          <figcaption class="card_author">Greg Hooper</figcaption>
+        <figure class="card__author">
+          <img class="card__author-avatar" src="assets/images/image-avatar.webp" alt="Greg's Avatar">
+          <figcaption class="card__author-name">Greg Hooper</figcaption>
         </figure>
       </div>
     </main>
 
-    <footer>
+    <footer class="footer">
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="#">Rivaldi Alfiansyah</a>.
       </div>
     </footer>
   </div>

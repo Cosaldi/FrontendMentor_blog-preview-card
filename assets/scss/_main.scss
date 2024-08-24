@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+
+    background-color: $white;
+    border-radius: 1.25rem;
+
+    max-width: 23.875rem;
+    padding: 1.5rem;
+
+    &__image {
+        // width: 100%;
+    }
+
+    &__illustration {
+        width: 100%;
+        border-radius: 0.625rem;
+    }
+
+    &__tag {
+        display: inline-block;
+        border-radius: 0.25rem;
+        
+        padding: 0.3125rem 0.8125rem;
+        
+        background-color: $yellow;
+        color: $gray-950;
+        
+        font-size: $font-xs;
+        font-weight: 800;
+    }
+
+    &__publish {
+        font-size: $font-xs;
+        font-weight: 500;
+    }
+
+    &__title {
+        display: inline-block ;
+        color: $gray-950;
+        font-size: $font-l;
+        font-weight: 800;
+
+        &:hover {
+            color: $yellow;
+        }
+    }
+
+    &__desc {
+        color: $gray-500;
+        font-size: $font-s;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+
+    &__author {
+        display: flex;
+        align-items: center;
+
+        &-avatar {
+            width: 2rem;
+            margin-right: 0.75rem;
+        }
+
+        &-name {
+            font-size: $font-s;
+            font-weight: 800;
+        }
+    }
+}
+
+.footer {
+    // display: inherit;
+    justify-self: flex-end;
+}

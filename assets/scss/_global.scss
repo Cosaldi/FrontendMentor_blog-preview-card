@@ -1,3 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: $yellow;
     box-sizing: border-box;
+    font-family: 'Figtree';
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Margin class
+.mx16 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.mx22 {
+    margin-left: 1.375rem;
+    margin-right: 1.375rem;
+}
+
+.mx24 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.mb16 {
+    margin-bottom: 1rem;
+}
+
+.mb22 {
+    margin-bottom: 1.375rem;
+}
+
+.mb24 {
+    margin-bottom: 1.5rem;
+}
+
+.mb26 {
+    margin-bottom: 1.625rem;
 }
