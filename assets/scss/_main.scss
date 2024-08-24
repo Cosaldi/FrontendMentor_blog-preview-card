@@ -31,11 +31,19 @@
         
         font-size: $font-xs;
         font-weight: 800;
+
+        @include breakpoints-up(tablet) {
+            font-size: $font-s;
+        }
     }
 
     &__publish {
         font-size: $font-xs;
         font-weight: 500;
+
+        @include breakpoints-up(tablet) {
+            font-size: $font-s;
+        }
     }
 
     &__title {
@@ -47,6 +55,10 @@
         &:hover {
             color: $yellow;
         }
+
+        @include breakpoints-up(tablet) {
+            font-size: $font-xl;
+        }
     }
 
     &__desc {
@@ -54,6 +66,10 @@
         font-size: $font-s;
         font-weight: 500;
         line-height: 1.5;
+
+        @include breakpoints-up(tablet) {
+            font-size: $font-m;
+        }
     }
 
     &__author {
@@ -73,6 +89,5 @@
 }
 
 .footer {
-    // display: inherit;
     justify-self: flex-end;
 }
